@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules
+
+# enviroment variables
+.env
+
+
+
+package-lock.json
+
+permission.json
+
+.DB_Store

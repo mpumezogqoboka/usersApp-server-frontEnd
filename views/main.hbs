@@ -1,0 +1,8 @@
+
+{{#if listExists}} 
+  <ul>
+    {{#each suggestedUsers}}
+      <li class={{this.lane}}> User: {{this.id}} Name: {{this.fullname}} Email: {{this.email}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
